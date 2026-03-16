@@ -233,8 +233,8 @@ header{
 /* Sections */
 section{padding:76px 0}
 @media (max-width: 640px){
-  section { padding: 50px 0; }
-  .heroInner { padding: 40px 0 20px; }
+  section { padding: 50px 20px !important; }
+  .heroInner { padding: 40px 20px 20px !important; }
 }
 
 .sectionHead{
